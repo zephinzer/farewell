@@ -7,8 +7,8 @@ import { messages } from "./components/Messages";
 function App() {
   return (
     <div className="App">
-      <Header />
       <main>
+        <Header />
         <CardDisplay messages={messages} />
       </main>
     </div>
