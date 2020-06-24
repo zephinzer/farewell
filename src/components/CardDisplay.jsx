@@ -40,29 +40,28 @@ export const CardDisplay = () => (
       }
     />
     <Card
-      header={"Test header 1"}
+      header={"Test header 6"}
       message={
         "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message"
       }
     />
     <Card
-      header={"Test header 2"}
       message={
-        "Hello, this is a very very very very very very very very very very very very very medium message"
+        "Hello, this is a very very very very very very very very very very very very very medium message with no header"
       }
     />
     <Card
-      header={"Test header 3"}
+      header={"Test header 8"}
       message={
         "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message"
       }
     />
     <Card
-      header={"Test long long long header 4"}
+      header={"Test long long long header 9"}
       message={"Hello, this is a very short message"}
     />
     <Card
-      header={"Test header 5"}
+      header={"Test header 10"}
       message={
         "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message"
       }
