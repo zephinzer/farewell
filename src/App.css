@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.header {
+  padding-top: 50px;
+}
+
 .card {
   padding: 10px;
   margin-bottom: 30px;
