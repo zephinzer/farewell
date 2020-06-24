@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <CardDisplay messages={messages} />
+      <main>
+        <CardDisplay messages={messages} />
+      </main>
     </div>
   );
 }
