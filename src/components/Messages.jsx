@@ -1,3 +1,5 @@
+import exampleImg from "../images/example.jpg";
+
 export const messages = [
   {
     header: '"Test header 1"',
@@ -24,7 +26,7 @@ export const messages = [
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
   {
-    image: "image",
+    image: exampleImg,
     alt: "alt-example",
   },
   {
