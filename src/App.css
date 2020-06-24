@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #eee;
+}
+
+.photo-card {
+  margin-bottom: 30px;
+}
+
+.card-display {
+  padding: 30px;
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+
+.card-display__column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
