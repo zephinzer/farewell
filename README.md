@@ -1,6 +1,6 @@
 # farewell
 
-yes
+Live [here](https://pensive-albattani-7782c8.netlify.app/)
 
 ## Guidelines
 * We don't write tests
