@@ -1,7 +1,7 @@
 import React from "react";
 
-export const PhotoCard = ({ imageHref, altText }) => (
+export const PhotoCard = ({ image, altText }) => (
   <div class="photo-card">
-    <img src={imageHref} alt={altText} width="100%" />
+    <img src={image} alt={altText} width="100%" />
   </div>
 );

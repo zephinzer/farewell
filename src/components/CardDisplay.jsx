@@ -1,16 +1,16 @@
 import React from "react";
-import { Card } from "./Card";
+import { TextCard } from "./TextCard";
 import Masonry from "react-masonry-css";
 import { PhotoCard } from "./PhotoCard";
 
 export const CardDisplay = ({ messages }) => {
-  const cardComponent = messages.map(({header, message, image, alt}) => {
-    if (image) {
-      return <PhotoCard imageHref={image} altText={alt} />;
-    }
-
-    return <Card header={header} message={message} />;
-  });
+  const cardComponent = messages.map(({ type, header, message, image, alt }) =>
+    type === "photo" ? (
+      <PhotoCard image={image} altText={alt} />
+    ) : (
+      <TextCard header={header} message={message} />
+    )
+  );
 
   return (
     <Masonry

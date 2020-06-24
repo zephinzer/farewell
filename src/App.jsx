@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { CardDisplay } from "./components/CardDisplay";
-import { messages } from "./components/Messages";
+import { messages } from "./messages/messages";
 
 function App() {
   return (
