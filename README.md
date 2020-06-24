@@ -12,7 +12,19 @@ yarn start
 ```
 
 ## Add new card
-Add in `CardDisplay`. Or anyone wants to help ingest from JSON file :see_no_evil:
-* For normal text card with a header and a message, use `Card`
-* For photo card, use `PhotoCard`. As I am lazy to optimise, you have to add your image to the `src/images` folder, then import it in `CardDisplay` and pass to `PhotoCard` as `imageHref`.
+Add messages to `messages.jsx`:
+* For normal text card with a header and a message:
+    ```
+    {
+      header: '"Test header 1"',
+      message: "Message contents here",
+    },
+    ```
+* For a photo with alt text, first place it in the images folder and import it as a variable. Then:
+    ```
+    {
+      image: someImg,
+      alt: "alt text for the image",
+    },
+    ```
 * For photo card with message, pls write the functionality by yourself
