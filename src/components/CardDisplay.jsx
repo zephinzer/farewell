@@ -4,8 +4,7 @@ import Masonry from "react-masonry-css";
 import { PhotoCard } from "./PhotoCard";
 
 export const CardDisplay = ({ messages }) => {
-  const cardComponent = messages.map((user, i) => {
-    const { header, message, image, alt } = messages[i];
+  const cardComponent = messages.map(({header, message, image, alt}) => {
     if (image) {
       return <PhotoCard imageHref={image} altText={alt} />;
     }
