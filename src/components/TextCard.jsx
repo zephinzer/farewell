@@ -2,7 +2,7 @@ import React from "react";
 
 export const TextCard = ({ header, message }) => (
   <div class="card">
-    {!!header && <h2>{header}</h2>}
-    <p>{message}</p>
+    <p class="card-content">{message}</p>
+    {!!header && <h2 class="card-author">- {header}</h2>}
   </div>
 );

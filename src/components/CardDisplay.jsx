@@ -12,15 +12,22 @@ export const CardDisplay = ({ messages }) => {
       case "photo":
         return <PhotoCard imageHref={image} altText={alt} />;
       case "text":
-        return <Card header={header} message={message} />;
+        return <TextCard header={header} message={message} />;
       default:
         return null;
     }
   });
 
+
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 2,
+    600: 1
+  };
+
   return (
     <Masonry
-      breakpointCols={3}
+      breakpointCols={breakpointColumnsObj}
       className="card-display"
       columnClassName="card-display__column"
     >

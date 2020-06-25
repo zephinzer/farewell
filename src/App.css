@@ -1,26 +1,33 @@
+:root {
+  --gutter: 20px;
+  --side-page-spacing: 30px;
+}
+
 .App {
   text-align: center;
-  font-size: 15;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 16px;
+  padding-left: var(--side-page-spacing);
+  padding-right: var(--side-page-spacing);
 }
 
 .header {
   padding-top: 50px;
 }
 
-.card {
-  padding: 10px;
-  margin-bottom: 5px;
-  background-color: #eee;
+.card, .photo-card, .photo-message-card {
+  margin-bottom: var(--gutter);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  min-height: 100px;
+  text-align: left;
 }
 
-.photo-card {
-  margin-bottom: 5px;
+.card{
+  padding: 20px;
+  background-color: #ffff88;
 }
 
-.photo-message-card {
-  margin-bottom: 5px;
+.photo-card, .photo-message-card {
+  background-color: #f5f7f7;
 }
 
 .card-display {
@@ -33,6 +40,18 @@
 }
 
 .card-display__column {
-  padding-left: 5px; /* gutter size */
+  padding-left: var(--gutter); /* gutter size */
   background-clip: padding-box;
+}
+
+.card-content {
+  font-size: 30px;
+  color: rgba(0,0,0,0.5);
+  line-height: 1;
+}
+
+.card-author {
+  font-size: 20px;
+  width: 100%;
+  text-align: right;
 }
