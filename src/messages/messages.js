@@ -113,7 +113,7 @@ export const messages = [
     type: "text",
     header: "Test header 10",
     message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
   {
     type: "photo-message",
