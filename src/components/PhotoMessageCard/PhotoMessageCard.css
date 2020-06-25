@@ -1,0 +1,56 @@
+.photo-message {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.photo-message-card {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.photo-message-card:hover .photo-message,
+.photo-message-card.active .photo-message {
+  opacity: 1;
+}
+
+
+.photo-message-card,
+.photo-message-card * {
+  box-sizing: border-box;
+}
+
+.photo-message-card img {
+  max-width: 100%;
+}
+.photo-message-card .photo-message-img {
+  display: block;
+}
+
+.photo-message-card .photo-message-card-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

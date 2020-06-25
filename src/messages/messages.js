@@ -115,4 +115,11 @@ export const messages = [
     message:
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
+  {
+    type: "photo-message",
+    image: exampleImg,
+    alt: "alt-example",
+    header: "Test long long long header 11 for photo card message",
+    message: "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+  },
 ];

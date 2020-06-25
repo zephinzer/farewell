@@ -33,4 +33,12 @@ Add messages to `src/messages/messages.js`:
     alt: "alt text for the image",
   },
   ```
-- For photo card with message, pls write the functionality by yourself
+- For photo card with message, first place it in the images folder and import it as a variable. Then:
+  ```javascript
+  {
+    header: "some header", // optional
+    message: "some message",
+    image: someImg,
+    alt: "alt text for the image",
+  }
+  ```
