@@ -1,4 +1,8 @@
 import exampleImg from "../images/example.jpg";
+import hive1 from "../images/hive1.jpeg";
+import food1 from "../images/food1.jpeg";
+import food2 from "../images/food2.jpeg";
+import market1 from "../images/market1.jpeg";
 
 /**
  * Adding a new message!!!
@@ -18,6 +22,31 @@ import exampleImg from "../images/example.jpg";
  *  }
  */
 export const messages = [
+  {
+    type: "text",
+    header: "Katsuki",
+    message: "Espero que nos volvamos a encontrar"
+  },
+  {
+    type: "photo",
+    image: food1,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
+  {
+    type: "photo",
+    image: food2,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
+  {
+    type: "photo",
+    image: hive1,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
+  {
+    type: "photo",
+    image: market1,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
   {
     type: "text",
     header: '"Test header 1"',
