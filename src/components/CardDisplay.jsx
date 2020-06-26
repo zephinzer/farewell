@@ -8,9 +8,9 @@ export const CardDisplay = ({ messages }) => {
   const cardComponent = messages.map(({ type, header, message, image, alt }) => {
     switch (type) {
       case "photo-message":
-        return <PhotoMessageCard header={header} message={message} imageHref={image} altText={alt} />;
+        return <PhotoMessageCard header={header} message={message} image={image} altText={alt} />;
       case "photo":
-        return <PhotoCard imageHref={image} altText={alt} />;
+        return <PhotoCard image={image} altText={alt} />;
       case "text":
         return <TextCard header={header} message={message} />;
       default:
