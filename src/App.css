@@ -1,6 +1,12 @@
 :root {
-  --gutter: 20px;
-  --side-page-spacing: 30px;
+  --gutter: 30px;
+  --side-page-spacing: 5%;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --side-page-spacing: 0;
+  }
 }
 
 .App {
@@ -11,7 +17,31 @@
 }
 
 .header {
-  padding-top: 50px;
+  font-size: 70px;
+  color: white;
+  display: inline-block;
+  transform: rotate(2deg);
+  /* box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); */
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  padding:0;
+  margin: 0;
+  padding-top:30px
+}
+
+.header-subtitle{
+  font-size: 26px;
+  padding: 20px;
 }
 
 .card, .photo-card, .photo-message-card {
@@ -28,6 +58,11 @@
 
 .photo-card, .photo-message-card {
   background-color: #f5f7f7;
+  border: 10px solid white;
+}
+
+.photo-card img, .photo-message-card img {
+  display:block;
 }
 
 .card-display {
@@ -46,12 +81,15 @@
 
 .card-content {
   font-size: 30px;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.6);
   line-height: 1;
+  position:relative;
+  padding:10px;
 }
 
+
 .card-author {
-  font-size: 20px;
+  font-size: 24px;
   width: 100%;
   text-align: right;
 }

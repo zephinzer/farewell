@@ -3,6 +3,9 @@ import hive1 from "../images/hive1.jpeg";
 import food1 from "../images/food1.jpeg";
 import food2 from "../images/food2.jpeg";
 import market1 from "../images/market1.jpeg";
+import escape from "../images/escape.jpg";
+import escape2 from "../images/escape2.jpg";
+import infinty from "../images/infinity.jpg";
 
 /**
  * Adding a new message!!!
@@ -54,6 +57,11 @@ export const messages = [
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
   {
+    type: "photo",
+    image: infinty,
+    alt: "alt-example",
+  },
+  {
     type: "text",
     header: "Test header 2",
     message:
@@ -64,6 +72,11 @@ export const messages = [
     header: "Test header 3",
     message:
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+  },
+  {
+    type: "photo",
+    image: escape,
+    alt: "alt-example",
   },
   {
     type: "text",
@@ -103,6 +116,11 @@ export const messages = [
     header: '"Test header 8"',
     message:
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+  },
+  {
+    type: "photo",
+    image: escape2,
+    alt: "alt-example",
   },
   {
     type: "text",

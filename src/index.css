@@ -5,13 +5,12 @@ body {
   font-family: 'Caveat', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/assets/bg3.png);
+  background-size: 400px;
 }
+ 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-h1{
-  font-size: 50px;
 }
