@@ -25,20 +25,38 @@
   line-height: 1;
   padding:10px 50px;
   transform: rotate(-1deg);
-  top:10px;
   position: relative;
   letter-spacing: -2px;
+  margin: 0;
 }
 
-.joeface {
+
+@keyframes twerk {
+  0% {transform: rotate(-8deg);}
+  50% {transform: rotate(8deg);}
+  100% {transform: rotate(-8deg);}
+}
+
+
+.joeface-left, .joeface-right {
   background-image: url('./images/assets/joseph-face.png');
   background-repeat: no-repeat;
   background-size: contain;
-  display: inline;
-  padding: 0 40px;
-  margin: 0 20px ;
+  display: inline-block;
+  position: relative;
+  top:20px;
+  width: 80px;
+  height:120px;
+  margin: 0 -35px;
+  animation-name: twerk;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
 }
 
+
+.joeface-left{left:-20px}
+.joeface-right{left:30px}
 
 .header-subtitle{
   color: #e5cb83;
@@ -46,6 +64,7 @@
   font-weight: 700;
   transform: rotate(2deg);
   font-size: 26px;
+  top: -30px;
   padding: 6px 20px;
   display: inline-block;
   position: relative;
@@ -53,7 +72,7 @@
 }
 
 .header-container{
-  margin: 40px 0;
+  margin-bottom: 20px;
 }
 
 .card, .photo-card, .photo-message-card {
