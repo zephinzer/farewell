@@ -19,10 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
-
-      # ... your other build steps to produce a build directory
-      # e.g. `yarn build` for create-react-app
-
+      - name: Build app
+        run: yarn build
       - name: Deploy draft to Netlify
         uses: South-Paw/action-netlify-deploy@v1.0.4
         with:
