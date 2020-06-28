@@ -137,6 +137,15 @@ export const messages = [
   },
   {
     type: "text",
+    header: "Mohan",
+    message: "Congratulations for the new job. " +
+        "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
+        "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
+        "You were and will always be an invaluable member of Jobseeker. " +
+        "Continue to raise your concerns😉!!!",
+  },
+  {
+    type: "text",
     header: "Test header 10",
     message:
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very long message",
