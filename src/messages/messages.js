@@ -140,6 +140,12 @@ export const messages = [
     alt: "joseph model siol",
   },
   {
+    type: "text",
+    header: "xx Sze Ying",
+    message:
+      'Hi Joseph!!! Heheh very happy to have met a colleague like you in my very first job. Working with you has shown me that it is possible to be serious and have fun at the same time. In many aspects, you have been like a mentor figure to me. Thank you for the many insightful conversations we have had about how we can do things better, for giving me advice in my development, and for sharing with us many useful resources to become a better engineer, team member and person. Thank you for showing me that it\'s okay to make mistakes by calling me out, yet at the same time lending me guidance to fix my mistakes. I\'ll never forget the patience you showed me when I accidentally "k delete all --all"ed heh. And most importantly, thank you for all the opportunities you have given me. I wish you the very best in this next phase of your life. Hope to stay in touch!',
+  },
+  {
     type: "photo",
     image: suntec2,
     alt: "food before ace gathering at suntec",
