@@ -1,11 +1,21 @@
-import hive1 from "../images/hive1.jpeg";
+import deliveroo from "../images/deliveroo.jpg";
+import escape from "../images/escape.jpg";
+import escape1 from "../images/escape1.jpg";
+import escape2 from "../images/escape2.jpg";
 import food1 from "../images/food1.jpeg";
 import food2 from "../images/food2.jpeg";
-import market1 from "../images/market1.jpeg";
-import escape from "../images/escape.jpg";
-import escape2 from "../images/escape2.jpg";
+import hive from "../images/hive.jpg";
+import hive1 from "../images/hive1.jpeg";
 import infinty from "../images/infinity.jpg";
-import deliveroo from "../images/deliveroo.jpg";
+import market1 from "../images/market1.jpeg";
+import milksha from "../images/milksha.jpg";
+import photoshoot from "../images/photoshoot.jpg";
+import photoshoot2 from "../images/photoshoot2.jpg";
+import photoshoot3 from "../images/photoshoot3.jpg";
+import rivendell from "../images/rivendell.jpg";
+import suntec from "../images/suntec.jpg";
+import suntec2 from "../images/suntec2.jpg";
+import watami from "../images/watami.jpg";
 
 /**
  * See README on how to add a new message
@@ -15,6 +25,11 @@ export const messages = [
     type: "text",
     header: "Katsuki",
     message: "Espero que nos volvamos a encontrar",
+  },
+  {
+    type: "photo",
+    image: rivendell,
+    alt: "our rivendell board!!!",
   },
   {
     type: "text",
@@ -37,25 +52,6 @@ export const messages = [
     alt: "group photo at hive",
   },
   {
-    type: "photo",
-    image: food1,
-    alt: "four guys sitting at a table drinking coffee",
-  },
-
-  {
-    type: "photo",
-    image: market1,
-    alt: "people looking at fish",
-  },
-  {
-    type: "text",
-    header: "Wynn",
-    message:
-      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
-      "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
-      "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
-  },
-  {
     type: "text",
     header: "Best wishes, Lizzie",
     message:
@@ -73,13 +69,43 @@ export const messages = [
   },
   {
     type: "photo",
-    image: infinty,
-    alt: "group photo after watching infinity wars",
+    image: hive,
+    alt: "group photo in office",
   },
   {
     type: "photo",
-    image: food2,
-    alt: "five guys sitting at a table eating curry fish head",
+    image: food1,
+    alt: "four guys sitting at a table drinking coffee",
+  },
+  {
+    type: "photo",
+    image: market1,
+    alt: "people looking at fish",
+  },
+  {
+    type: "photo",
+    image: milksha,
+    alt: "group photo at milksha",
+  },
+  {
+    type: "photo",
+    image: photoshoot,
+    alt: "joseph model siol",
+  },
+  {
+    type: "text",
+    header: "Mohan",
+    message:
+      "Congratulations for the new job. " +
+      "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
+      "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
+      "You were and will always be an invaluable member of Jobseeker. " +
+      "Continue to raise your concerns😉!!!",
+  },
+  {
+    type: "photo",
+    image: suntec,
+    alt: "food before ace gathering at suntec",
   },
   {
     type: "text",
@@ -89,6 +115,39 @@ export const messages = [
       "Even though we've only been working for a relatively short time together, I'm glad that our paths have crossed. " +
       "Your passion for fighting what you think is right and always questioning the value/purpose of doing things has had an influence on how I perceive a healthy working relationship to look like. " +
       "I'm happy that you have found an awesome opportunity and I'm sure you'll continue to have an impact on others as you grow. All the best! 😃",
+  },
+  {
+    type: "text",
+    header: "Wynn",
+    message:
+      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
+      "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
+      "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
+  },
+  {
+    type: "photo",
+    image: infinty,
+    alt: "group photo after watching infinity wars",
+  },
+  {
+    type: "photo",
+    image: food2,
+    alt: "five guys sitting at a table eating curry fish head",
+  },
+  {
+    type: "photo",
+    image: photoshoot2,
+    alt: "joseph model siol",
+  },
+  {
+    type: "photo",
+    image: suntec2,
+    alt: "food before ace gathering at suntec",
+  },
+  {
+    type: "photo",
+    image: escape1,
+    alt: "group photo after escape room",
   },
   {
     type: "photo",
@@ -107,13 +166,13 @@ export const messages = [
     alt: "group photo after escape room",
   },
   {
-    type: "text",
-    header: "Mohan",
-    message:
-      "Congratulations for the new job. " +
-      "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
-      "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
-      "You were and will always be an invaluable member of Jobseeker. " +
-      "Continue to raise your concerns😉!!!",
+    type: "photo",
+    image: photoshoot3,
+    alt: "joseph model siol",
+  },
+  {
+    type: "photo",
+    image: watami,
+    alt: "group photo at watami",
   },
 ];

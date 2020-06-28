@@ -6,7 +6,8 @@ import { PhotoMessageCard } from "./PhotoMessageCard/PhotoMessageCard";
 
 export const CardDisplay = ({ messages }) => {
   const cardComponent = messages.map(
-    ({ type, header, message, image, alt }) => {
+    ({ type, header, message, image, alt }, index) => {
+      // ! Leave the index for debugging
       switch (type) {
         case "photo-message":
           return (
@@ -15,6 +16,7 @@ export const CardDisplay = ({ messages }) => {
               message={message}
               image={image}
               altText={alt}
+              index={index}
             />
           );
         case "photo":
@@ -23,6 +25,7 @@ export const CardDisplay = ({ messages }) => {
               image={image}
               altText={alt}
               rotation={(Math.random() - 0.5) * 7}
+              index={index}
             />
           );
         case "text":
@@ -31,6 +34,7 @@ export const CardDisplay = ({ messages }) => {
               header={header}
               message={message}
               rotation={(Math.random() - 0.5) * 4}
+              index={index}
             />
           );
         default:

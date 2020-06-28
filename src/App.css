@@ -128,7 +128,10 @@
   color: #e2aa11;
   width: 100%;
   text-align: right;
-  /* text-transform: uppercase; */
   position: relative;
   top: 8px;
+}
+
+.card-index {
+  z-index: 1;
 }
