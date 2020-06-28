@@ -228,6 +228,12 @@ export const messages = [
     alt: "food before ace gathering at suntec",
   },
   {
+    type: "text",
+    header: "Alvin",
+    message:
+        "Hi Joseph, \n\nHave been working together since MCF started. You have been a good teammate, a helping hand when I have techincal difficulties and team culture keeper. Will miss your presence as well as those philosophical and random chats we had.. \n\nCongrats in your new job! Do chat with us once in a while in MCF alumi and visit us too! ",
+  },
+  {
     type: "photo",
     image: escape1,
     alt: "group photo after escape room",
