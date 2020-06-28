@@ -83,8 +83,12 @@ export const messages = [
   },
   {
     type: "text",
-    header: "Test long long long header 4",
-    message: "Hello, this is a very short message",
+    header: "Kai Hong",
+    message: 
+      "Hey Joseph,\n\n" +
+      "Even though we've only been working for a relatively short time together, I'm glad that our paths have crossed. " +
+      "Your passion for fighting what you think is right and always questioning the value/purpose of doing things has had an influence on how I perceive a healthy working relationship to look like. " +
+      "I'm happy that you have found an awesome opportunity and I'm sure you'll continue to have an impact on others as you grow. All the best! 😃",
   },
   {
     type: "text",
