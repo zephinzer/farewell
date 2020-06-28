@@ -9,27 +9,13 @@ import infinty from "../images/infinity.jpg";
 import deliveroo from "../images/deliveroo.jpg";
 
 /**
- * Adding a new message!!!
- *
- * If you are trying to add a TextCard:
- *  {
- *    type: "text",
- *    header: "some header",    // optional
- *    message: "some message"
- *  }
- *
- * If you are trying to add a PhotoCard:
- *  {
- *    type: "photo",
- *    image: (import from your image file),
- *    alt: "some alt text"
- *  }
+ * See README on how to add a new message
  */
 export const messages = [
   {
     type: "text",
     header: "Katsuki",
-    message: "Espero que nos volvamos a encontrar"
+    message: "Espero que nos volvamos a encontrar",
   },
   {
     type: "photo",
@@ -53,18 +39,18 @@ export const messages = [
   },
   {
     type: "text",
-    header: 'Wilmer',
+    header: "Wilmer",
     message:
       "Hey Joseph, \n" +
-        "\n" +
-        "Time passed by so fast in MCF, I didn’t realised that it has been almost 2 years since I started the project! \n" +
-        "\n" +
-        "While our work don’t always overlap, I’m impressed by your dedication to your principles within meetings, and our random yet at times philosophical discussions in real life and online haha.\n" +
-        "\n" +
-        "Sad to hear that our working relationship is approaching its end, but I hope you don’t be a stranger out there! Wish you all the best and I know you will ace it :)\n" +
-        "\n" +
-        "Cheers,\n" +
-        "Wilmer",
+      "\n" +
+      "Time passed by so fast in MCF, I didn’t realised that it has been almost 2 years since I started the project! \n" +
+      "\n" +
+      "While our work don’t always overlap, I’m impressed by your dedication to your principles within meetings, and our random yet at times philosophical discussions in real life and online haha.\n" +
+      "\n" +
+      "Sad to hear that our working relationship is approaching its end, but I hope you don’t be a stranger out there! Wish you all the best and I know you will ace it :)\n" +
+      "\n" +
+      "Cheers,\n" +
+      "Wilmer",
   },
   {
     type: "photo",
@@ -81,8 +67,8 @@ export const messages = [
     header: "Wynn",
     message:
       "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
-        "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
-        "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
+      "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
+      "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
   {
     type: "text",
@@ -155,6 +141,7 @@ export const messages = [
     image: exampleImg,
     alt: "alt-example",
     header: "Test long long long header 11 for photo card message",
-    message: "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+    message:
+      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
 ];
