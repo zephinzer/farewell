@@ -80,7 +80,7 @@ export const messages = [
     type: "text",
     header: "Wynn",
     message:
-      "Hi Joseph, though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
+      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
         "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
         "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
