@@ -264,4 +264,20 @@ export const messages = [
     image: watami,
     alt: "group photo at watami",
   },
+  {
+    type: "text",
+    header: "Visa",
+    message: "Hi Joseph,\n" +
+    "though we hav not worked very closely, I have enjoyed every discussion with you. Your drive to set the right culture for the team and your courage to question the norm has always been an inspiration. All the best for your future endeavours and I am sure you will do great!!!!",
+  },
+  {
+    type: "text",
+    header: "Gerard",
+    message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
+  },
+  {
+    type: "text",
+    header: "Leow Wei Jie",
+    message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
+  },
 ];
