@@ -48,6 +48,14 @@ export const messages = [
     alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
   },
   {
+    type: "text",
+    header: "Wynn",
+    message:
+      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
+      "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
+      "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
+  },
+  {
     type: "photo",
     image: market1,
     alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
@@ -64,14 +72,6 @@ export const messages = [
   },
   {
     type: "text",
-    header: "Wynn",
-    message:
-      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
-      "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
-      "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
-  },
-  {
-    type: "text",
     header: "Test header 3",
     message:
       "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
@@ -84,7 +84,7 @@ export const messages = [
   {
     type: "text",
     header: "Kai Hong",
-    message: 
+    message:
       "Hey Joseph,\n\n" +
       "Even though we've only been working for a relatively short time together, I'm glad that our paths have crossed. " +
       "Your passion for fighting what you think is right and always questioning the value/purpose of doing things has had an influence on how I perceive a healthy working relationship to look like. " +
