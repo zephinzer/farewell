@@ -16,6 +16,15 @@ import rivendell from "../images/rivendell.jpg";
 import suntec from "../images/suntec.jpg";
 import suntec2 from "../images/suntec2.jpg";
 import watami from "../images/watami.jpg";
+import house1 from "../images/house1.jpeg";
+import mirror1 from "../images/mirror1.jpeg";
+import overseas1 from "../images/overseas1.jpeg";
+import food3 from "../images/food3.jpeg";
+import food4 from "../images/food4.jpeg";
+import food5 from "../images/food5.jpeg";
+import hive2 from "../images/hive2.jpg";
+import hive3 from "../images/hive3.jpeg";
+import starting_war from "../images/starting_war.jpeg";
 
 /**
  * See README on how to add a new message
@@ -74,13 +83,58 @@ export const messages = [
   },
   {
     type: "photo",
+    image: house1,
+    alt: "some ones house #FOMO gang unite",
+  },
+  {
+    type: "photo",
+    image: starting_war,
+    alt: "CDS Disapproves",
+  },
+  {
+    type: "photo",
+    image: mirror1,
+    alt: "some place with a mirror #FOMO gang unite",
+  },
+  {
+    type: "photo",
+    image: overseas1,
+    alt: "anyone else got some of dat solo photo op",
+  },
+  {
+    type: "photo",
     image: food1,
     alt: "four guys sitting at a table drinking coffee",
   },
   {
     type: "photo",
+    image: food3,
+    alt: "Do people only take photo while eating",
+  },
+  {
+    type: "photo",
+    image: food4,
+    alt: "Theres 5 photos just for food",
+  },
+  {
+    type: "photo",
+    image: food5,
+    alt: "FOMO gang unite!",
+  },
+  {
+    type: "photo",
     image: market1,
     alt: "people looking at fish",
+  },
+  {
+    type: "photo",
+    image: hive2,
+    alt: "Hah! I recognise this place! It's hive!",
+  },
+  {
+    type: "photo",
+    image: hive3,
+    alt: "Hah! I recognise this place! It's hive!",
   },
   {
     type: "photo",
@@ -120,9 +174,32 @@ export const messages = [
     type: "text",
     header: "Wynn",
     message:
-      "Hi Joseph ,though I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
+      "Hi Joseph,\nthough I've only worked with you for a few months, I would say that I'm glad to have the opportunity. When I first knew about your existence, " +
       "I always perceived you as just another extremely technical person. But after I started to work with you, I realised you're a man of culture as well (insert meme here). " +
       "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
+  },
+  {
+    type: "text",
+    header: "Ryan",
+    message:
+        "Hope to be sidecars with you again in the future, adiós!",
+  },
+  {
+    type: "text",
+    header: "Yvonne",
+    message:
+        "Sad to have a friend leave the teammmmm. But glad that you are exploring what’s next for yourself. \n" +
+        "\n" +
+        "We will organise a reunion!!!",
+  },
+  {
+    type: "text",
+    header: "Barry",
+    message:
+        "Hey Joseph, \n" +
+        "It's been a great run we've had since the early beginnings of MCF, to what we have achieved today. Your presence will be missed.\n" +
+        "\n" +
+        "May our paths cross again",
   },
   {
     type: "photo",
