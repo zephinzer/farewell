@@ -23,21 +23,6 @@ export const messages = [
     alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
   },
   {
-    type: "photo",
-    image: food2,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
-  },
-  {
-    type: "photo",
-    image: hive1,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
-  },
-  {
-    type: "photo",
-    image: market1,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
-  },
-  {
     type: "text",
     header: "Wilmer",
     message:
@@ -51,6 +36,21 @@ export const messages = [
       "\n" +
       "Cheers,\n" +
       "Wilmer",
+  },
+  {
+    type: "photo",
+    image: food2,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
+  {
+    type: "photo",
+    image: hive1,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+  },
+  {
+    type: "photo",
+    image: market1,
+    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
   },
   {
     type: "photo",
@@ -137,11 +137,12 @@ export const messages = [
   {
     type: "text",
     header: "Mohan",
-    message: "Congratulations for the new job. " +
-        "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
-        "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
-        "You were and will always be an invaluable member of Jobseeker. " +
-        "Continue to raise your concerns😉!!!",
+    message:
+      "Congratulations for the new job. " +
+      "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
+      "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
+      "You were and will always be an invaluable member of Jobseeker. " +
+      "Continue to raise your concerns😉!!!",
   },
   {
     type: "text",
