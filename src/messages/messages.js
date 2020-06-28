@@ -272,7 +272,7 @@ export const messages = [
   {
     type: "text",
     header: "Leow Wei Jie",
-    message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
+    message: "Thank you and all the best. Hope we can work together again in the future",
   },
   {
     type: "text",
