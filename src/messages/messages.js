@@ -280,4 +280,12 @@ export const messages = [
     header: "Leow Wei Jie",
     message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
   },
+  {
+    type: "text",
+    header: "Dickson",
+    message: "Hi Joseph\n" +
+    "Congratulations on your new position! I'm sure you'll ace it as well and they're lucky to have you 😊\n" +
+    "Thank you for the many conversations that we've had - both the tech-related ones and especially the non-technical ones. I've learned a lot from you technically and really appreciate how you stand by your principles and are willing to speak when you feel that the right thing is not being done. I also really appreciate your mentorship and our discussions on ops and Ontological coaching, which encouraged my interest in these areas. Thank you for being an anchor for MCF and the Jobseeker team. Finally, thanks for setting up new structures to make the team better in a sustainable way so that they will continue to live on.\n" +
+    "Lets keep in touch,. Look forward to a proper reunion and catching up over great coffee at a cafe or when testing out a new espresso machine ☕",
+  },
 ];
