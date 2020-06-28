@@ -1,4 +1,3 @@
-import exampleImg from "../images/example.jpg";
 import hive1 from "../images/hive1.jpeg";
 import food1 from "../images/food1.jpeg";
 import food2 from "../images/food2.jpeg";
@@ -18,11 +17,6 @@ export const messages = [
     message: "Espero que nos volvamos a encontrar",
   },
   {
-    type: "photo",
-    image: food1,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
-  },
-  {
     type: "text",
     header: "Wilmer",
     message:
@@ -39,13 +33,19 @@ export const messages = [
   },
   {
     type: "photo",
-    image: food2,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+    image: hive1,
+    alt: "group photo at hive",
   },
   {
     type: "photo",
-    image: hive1,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+    image: food1,
+    alt: "four guys sitting at a table drinking coffee",
+  },
+
+  {
+    type: "photo",
+    image: market1,
+    alt: "people looking at fish",
   },
   {
     type: "text",
@@ -56,30 +56,30 @@ export const messages = [
       "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
   {
-    type: "photo",
-    image: market1,
-    alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
+    type: "text",
+    header: "Best wishes, Lizzie",
+    message:
+      "Hello Joseph,\n" +
+      "\n" +
+      "It's been 3 years since the day I was invited for an interview and pair programming. I want to thank you for the chance given! I have learnt so much from you and the team, not just in technical perspective, but the courage to challenge and question, and the continuous improvement by gathering feedbacks!\n" +
+      "\n" +
+      "Admire your dedication and commitment, not only work but also how focus and discipline you are when coming to pursuing your interest as well! (Now when I heard 詠春 or 一個打十個, it will remind me of you haha)\n" +
+      "\n" +
+      "Thanks for being the anchor for the team, you always give your best effort to keep the awesome culture, the culture that makes ACE a special place. Thanks for reminding us of the right value and priority, as we try to strike a balance between quality and deliverables.\n" +
+      "\n" +
+      "As you move on to your next adventure, I'm sure you will cultivate the same awesome culture in your new team!! All the best to you and have lots of fun!\n" +
+      "\n" +
+      "Looking forward to reading your sharing about your next journey!!\n",
   },
   {
     type: "photo",
     image: infinty,
-    alt: "alt-example",
+    alt: "group photo after watching infinity wars",
   },
   {
     type: "photo",
-    image: deliveroo,
-    alt: "something something something Deliveroo",
-  },
-  {
-    type: "text",
-    header: "Test header 3",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
-  },
-  {
-    type: "photo",
-    image: escape,
-    alt: "alt-example",
+    image: food2,
+    alt: "five guys sitting at a table eating curry fish head",
   },
   {
     type: "text",
@@ -91,48 +91,20 @@ export const messages = [
       "I'm happy that you have found an awesome opportunity and I'm sure you'll continue to have an impact on others as you grow. All the best! 😃",
   },
   {
-    type: "text",
-    header: "Test header 5",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+    type: "photo",
+    image: deliveroo,
+    alt:
+      "walked 30 minutes to have overpriced food at Deliveroo!!! barista was cute tho",
   },
   {
     type: "photo",
-    image: exampleImg,
-    alt: "alt-example",
-  },
-  {
-    type: "text",
-    header: "Test header 6",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
-  },
-  {
-    type: "text",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very medium message with no header",
-  },
-  {
-    type: "text",
-    header: "Test header 7",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
-  },
-  {
-    type: "text",
-    header: '"Test header 8"',
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
+    image: escape,
+    alt: "group photo after escape room",
   },
   {
     type: "photo",
     image: escape2,
-    alt: "alt-example",
-  },
-  {
-    type: "text",
-    header: "Test long long long header 9",
-    message: "Hello, this is a very short message",
+    alt: "group photo after escape room",
   },
   {
     type: "text",
@@ -143,19 +115,5 @@ export const messages = [
       "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
       "You were and will always be an invaluable member of Jobseeker. " +
       "Continue to raise your concerns😉!!!",
-  },
-  {
-    type: "text",
-    header: "Test header 10",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very long message",
-  },
-  {
-    type: "photo-message",
-    image: exampleImg,
-    alt: "alt-example",
-    header: "Test long long long header 11 for photo card message",
-    message:
-      "Hello, this is a very very very very very very very very very very very very very very very very very very very very very very very very very very long message",
   },
 ];
