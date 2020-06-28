@@ -133,5 +133,6 @@
 }
 
 .card-index {
+  display: none;
   z-index: 1;
 }
