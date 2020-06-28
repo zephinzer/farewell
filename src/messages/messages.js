@@ -18,11 +18,6 @@ export const messages = [
     message: "Espero que nos volvamos a encontrar",
   },
   {
-    type: "text",
-    header: "test",
-    message: "testing deploy",
-  },
-  {
     type: "photo",
     image: food1,
     alt: "hahaha i could write an alt text IF I KNEW WHAT WAS GOING ON",
