@@ -20,7 +20,6 @@ import house1 from "../images/house1.jpeg";
 import mirror1 from "../images/mirror1.jpeg";
 import overseas1 from "../images/overseas1.jpeg";
 import food3 from "../images/food3.jpeg";
-import food4 from "../images/food4.jpeg";
 import food5 from "../images/food5.jpeg";
 import hive2 from "../images/hive2.jpg";
 import hive3 from "../images/hive3.jpeg";
@@ -84,7 +83,7 @@ export const messages = [
   {
     type: "photo",
     image: house1,
-    alt: "some ones house #FOMO gang unite",
+    alt: "Someone's house #FOMO gang unite",
   },
   {
     type: "photo",
@@ -113,13 +112,8 @@ export const messages = [
   },
   {
     type: "photo",
-    image: food4,
-    alt: "Theres 5 photos just for food",
-  },
-  {
-    type: "photo",
     image: food5,
-    alt: "FOMO gang unite!",
+    alt: "Theres 4 photos just for food",
   },
   {
     type: "photo",
@@ -129,7 +123,7 @@ export const messages = [
   {
     type: "photo",
     image: hive2,
-    alt: "Hah! I recognise this place! It's hive!",
+    alt: "Wow what generation is this?",
   },
   {
     type: "photo",
