@@ -24,6 +24,9 @@ import food5 from "../images/food5.jpeg";
 import hive2 from "../images/hive2.jpg";
 import hive3 from "../images/hive3.jpeg";
 import starting_war from "../images/starting_war.jpeg";
+import LHL from "../images/LHL.jpeg";
+import mcfkickoff from "../images/MCFkickoff.jpg";
+import laptop from "../images/laptop.jpg";
 
 /**
  * See README on how to add a new message
@@ -265,6 +268,11 @@ export const messages = [
     "though we hav not worked very closely, I have enjoyed every discussion with you. Your drive to set the right culture for the team and your courage to question the norm has always been an inspiration. All the best for your future endeavours and I am sure you will do great!!!!",
   },
   {
+    type: "photo",
+    image: LHL,
+    alt: "Joseph assisting LHL to push code to MCF",
+  },
+  {
     type: "text",
     header: "Gerard",
     message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
@@ -281,5 +289,15 @@ export const messages = [
     "Congratulations on your new position! I'm sure you'll ace it as well and they're lucky to have you 😊\n" +
     "Thank you for the many conversations that we've had - both the tech-related ones and especially the non-technical ones. I've learned a lot from you technically and really appreciate how you stand by your principles and are willing to speak when you feel that the right thing is not being done. I also really appreciate your mentorship and our discussions on ops and Ontological coaching, which encouraged my interest in these areas. Thank you for being an anchor for MCF and the Jobseeker team. Finally, thanks for setting up new structures to make the team better in a sustainable way so that they will continue to live on.\n" +
     "Lets keep in touch,. Look forward to a proper reunion and catching up over great coffee at a cafe or when testing out a new espresso machine ☕",
+  },
+  {
+    type: "photo",
+    image: mcfkickoff,
+    alt: "1st MCF kickoff meeting with POs",
+  },
+  {
+    type: "photo",
+    image: laptop,
+    alt: "Two guys one laptop",
   },
 ];
