@@ -4,7 +4,7 @@ import escape1 from "../images/escape1.jpg";
 import escape2 from "../images/escape2.jpg";
 import food1 from "../images/food1.jpeg";
 import food2 from "../images/food2.jpeg";
-import hive from "../images/hive.jpg";
+import hive4 from "../images/hive4.jpeg";
 import hive1 from "../images/hive1.jpeg";
 import infinty from "../images/infinity.jpg";
 import market1 from "../images/market1.jpeg";
@@ -21,6 +21,8 @@ import mirror1 from "../images/mirror1.jpeg";
 import overseas1 from "../images/overseas1.jpeg";
 import food3 from "../images/food3.jpeg";
 import food5 from "../images/food5.jpeg";
+import food7 from "../images/food7.jpeg";
+import food6 from "../images/food6.jpeg";
 import hive2 from "../images/hive2.jpg";
 import hive3 from "../images/hive3.jpeg";
 import starting_war from "../images/starting_war.jpeg";
@@ -60,7 +62,7 @@ export const messages = [
   {
     type: "photo",
     image: hive1,
-    alt: "group photo at hive",
+    alt: "Back when dinosaurs roam the Earth",
   },
   {
     type: "text",
@@ -77,11 +79,6 @@ export const messages = [
       "As you move on to your next adventure, I'm sure you will cultivate the same awesome culture in your new team!! All the best to you and have lots of fun!\n" +
       "\n" +
       "Looking forward to reading your sharing about your next journey!!\n",
-  },
-  {
-    type: "photo",
-    image: hive,
-    alt: "group photo in office",
   },
   {
     type: "photo",
@@ -121,7 +118,7 @@ export const messages = [
   {
     type: "photo",
     image: market1,
-    alt: "people looking at fish",
+    alt: "people looking at fish (wait.. is Joseph not wearing plain black??)",
   },
   {
     type: "photo",
@@ -131,7 +128,22 @@ export const messages = [
   {
     type: "photo",
     image: hive3,
-    alt: "Hah! I recognise this place! It's hive!",
+    alt: "I think we only ever recorded one birthday",
+  },
+  {
+    type: "photo",
+    image: hive4,
+    alt: "Ordinary photo of Hive and devops people wearing black. Everything is as the universe intended",
+  },
+  {
+    type: "photo",
+    image: food6,
+    alt: "The only documented buffet",
+  },
+  {
+    type: "photo",
+    image: food7,
+    alt: "Kampong food at non kampong price",
   },
   {
     type: "photo",
@@ -156,7 +168,7 @@ export const messages = [
   {
     type: "photo",
     image: suntec,
-    alt: "food before ace gathering at suntec",
+    alt: "food before ace gathering at suntec with Joseph's full face",
   },
   {
     type: "text",
@@ -222,7 +234,7 @@ export const messages = [
   {
     type: "photo",
     image: suntec2,
-    alt: "food before ace gathering at suntec",
+    alt: "food before ace gathering at suntec with Joseph's partial face",
   },
   {
     type: "text",
