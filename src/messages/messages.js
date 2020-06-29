@@ -253,14 +253,15 @@ export const messages = [
     alt: "group photo after watching infinity wars",
   },
   {
-    type: "photo",
-    image: food2,
-    alt: "five guys sitting at a table eating curry fish head",
+    type: "text",
+    header: "Mavis",
+    message:
+      "Hey Joseph! Didnt get to work with you or the js team for a long time but from the discussions i've sat in, i can see why the team looks up to you and values your opinions. Notwithstanding our occasional differences in priorities or opinions, i do appreciate how vocal and honest you are in sharing your views. I'm also thankful for the things I've learnt through working with you and the rest of the js team, esp when you guys were so patient with me (who's like the most non-tech PO you could ever get haha). All the best in your new career and keep doing what you believe in!",
   },
   {
     type: "photo",
-    image: photoshoot2,
-    alt: "joseph model siol",
+    image: food2,
+    alt: "five guys sitting at a table eating curry fish head",
   },
   {
     type: "text",
@@ -351,5 +352,10 @@ export const messages = [
     type: "photo",
     image: andrey,
     alt: "14 September 2018, 3:30pm",
+  },
+  {
+    type: "photo",
+    image: photoshoot2,
+    alt: "joseph model siol",
   },
 ];
