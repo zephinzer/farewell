@@ -169,7 +169,7 @@ export const messages = [
   {
     type: "photo",
     image: suntec,
-    alt: "food before ace gathering at suntec with Joseph's full face",
+    alt: "food before ace product bazaar at suntec with Joseph's full face",
   },
   {
     type: "text",
@@ -235,7 +235,7 @@ export const messages = [
   {
     type: "photo",
     image: suntec2,
-    alt: "food before ace gathering at suntec with Joseph's partial face",
+    alt: "food before ace product bazaar at suntec with Joseph's partial face",
   },
   {
     type: "text",
