@@ -83,7 +83,7 @@ export const messages = [
   {
     type: "photo",
     image: house1,
-    alt: "Someone's house #FOMO gang unite",
+    alt: "Photo taken in the 90s obviously",
   },
   {
     type: "photo",
