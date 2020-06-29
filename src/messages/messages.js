@@ -97,6 +97,24 @@ export const messages = [
     alt: "some place with a mirror #FOMO gang unite",
   },
   {
+    type: "text",
+    header: "Raymond",
+    message:
+      "Hey Joseph,\n" +
+      "\n" +
+      "Thank you for being one of my first few colleagues around in my first job. Having you as one of the role models around MCF helped shaped how I've grown over the past few years.\n" +
+      "\n" +
+      'From you, I learn how one can possess high levels of moral courage even when working with (or some say "for") people who do not share the same moral compass. From you, I learn how having continuous feedback from my peers can help me grow. From you, I learn how to have tough conversations now, to maintain a healthier relationships down the road.\n' +
+      "\n" +
+      "So thank you for being a great role model for the young engineers around.\n" +
+      "\n" +
+      "I'm really glad to have you around ACE. Wish you all the best in the future endeavour.\n" +
+      +"Cheers,\n" +
+      "Ray\n" +
+      "\n" +
+      "Ps. Got lobang must jio okay.",
+  },
+  {
     type: "photo",
     image: overseas1,
     alt: "anyone else got some of dat solo photo op",
@@ -112,9 +130,25 @@ export const messages = [
     alt: "Do people only take photo while eating",
   },
   {
+    type: "text",
+    header: "Shalom",
+    message:
+      "Hey Man, sad to see you leave. We only started to get to know each other. Wish we had more time to drink wine and talk silly things over a beer. I'm gonna miss working with you to make DevOps culture a reality. And those times we discuss about martial arts and other cool stuff. It's sad to see you leave. All the best in your new position. You are gonna learn so much and bring that knowledge to whatever team you join. Keep in touch and see you around the start-up scene.",
+  },
+  {
     type: "photo",
     image: food5,
     alt: "Theres 4 photos just for food",
+  },
+  {
+    type: "text",
+    header: "Mohan",
+    message:
+      "Congratulations for the new job. " +
+      "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
+      "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
+      "You were and will always be an invaluable member of Jobseeker. " +
+      "Continue to raise your concerns😉!!!",
   },
   {
     type: "photo",
@@ -132,46 +166,6 @@ export const messages = [
     alt: "I think we only ever recorded one birthday",
   },
   {
-    type: "photo",
-    image: hive4,
-    alt: "Ordinary photo of Hive and devops people wearing black. Everything is as the universe intended",
-  },
-  {
-    type: "photo",
-    image: food6,
-    alt: "The only documented buffet",
-  },
-  {
-    type: "photo",
-    image: food7,
-    alt: "Kampong food at non kampong price",
-  },
-  {
-    type: "photo",
-    image: milksha,
-    alt: "group photo at milksha",
-  },
-  {
-    type: "photo",
-    image: photoshoot,
-    alt: "joseph model siol",
-  },
-  {
-    type: "text",
-    header: "Mohan",
-    message:
-      "Congratulations for the new job. " +
-      "It was nice working with you, it changed my attitude on how we should look at the requirements. " +
-      "I remember my interview time, I wasn't that confidant after the first round, but your attitude and smile helped to reduce my stress for the 2nd round. " +
-      "You were and will always be an invaluable member of Jobseeker. " +
-      "Continue to raise your concerns😉!!!",
-  },
-  {
-    type: "photo",
-    image: suntec,
-    alt: "food before ace product bazaar at suntec with Joseph's full face",
-  },
-  {
     type: "text",
     header: "Kai Hong",
     message:
@@ -179,6 +173,12 @@ export const messages = [
       "Even though we've only been working for a relatively short time together, I'm glad that our paths have crossed. " +
       "Your passion for fighting what you think is right and always questioning the value/purpose of doing things has had an influence on how I perceive a healthy working relationship to look like. " +
       "I'm happy that you have found an awesome opportunity and I'm sure you'll continue to have an impact on others as you grow. All the best! 😃",
+  },
+  {
+    type: "photo",
+    image: hive4,
+    alt:
+      "Ordinary photo of Hive and devops people wearing black. Everything is as the universe intended",
   },
   {
     type: "text",
@@ -189,27 +189,63 @@ export const messages = [
       "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
   {
-    type: "text",
-    header: "Ryan",
-    message:
-        "Hope to be sidecars with you again in the future, adiós!",
+    type: "photo",
+    image: food6,
+    alt: "The only documented buffet",
   },
   {
     type: "text",
     header: "Yvonne",
     message:
-        "Sad to have a friend leave the teammmmm. But glad that you are exploring what’s next for yourself. \n" +
-        "\n" +
-        "We will organise a reunion!!!",
+      "Sad to have a friend leave the teammmmm. But glad that you are exploring what’s next for yourself. \n" +
+      "\n" +
+      "We will organise a reunion!!!",
+  },
+  {
+    type: "photo",
+    image: food7,
+    alt: "Kampong food at non kampong price",
+  },
+  {
+    type: "text",
+    header: "Ryan",
+    message: "Hope to be sidecars with you again in the future, adiós!",
+  },
+  {
+    type: "photo",
+    image: milksha,
+    alt: "group photo at milksha",
   },
   {
     type: "text",
     header: "Barry",
     message:
-        "Hey Joseph, \n" +
-        "It's been a great run we've had since the early beginnings of MCF, to what we have achieved today. Your presence will be missed.\n" +
-        "\n" +
-        "May our paths cross again",
+      "Hey Joseph, \n" +
+      "It's been a great run we've had since the early beginnings of MCF, to what we have achieved today. Your presence will be missed.\n" +
+      "\n" +
+      "May our paths cross again",
+  },
+  {
+    type: "photo",
+    image: photoshoot,
+    alt: "joseph model siol",
+  },
+  {
+    type: "text",
+    header: "xx Sze Ying",
+    message:
+      "Hi Joseph!!! Heheh very happy to have met a colleague like you in my very first job. Working with you has shown me that it is possible to be serious and have fun at the same time. In many aspects, you have been like a mentor figure to me. Thank you for the many insightful conversations we have had about how we can do things better, for giving me advice in my development, and for sharing with us many useful resources to become a better engineer, team member and person. Thank you for showing me that it's okay to make mistakes by calling me out, yet at the same time lending me guidance to fix my mistakes. I'll never forget the patience you showed me when I accidentally \"k delete all --all\"ed heh. And most importantly, thank you for all the opportunities you have given me. I wish you the very best in this next phase of your life. Hope to stay in touch!",
+  },
+  {
+    type: "photo",
+    image: suntec,
+    alt: "food before ace product bazaar at suntec with Joseph's full face",
+  },
+  {
+    type: "text",
+    header: "Alvin",
+    message:
+      "Hi Joseph, \n\nHave been working together since MCF started. You have been a good teammate, a helping hand when I have techincal difficulties and team culture keeper. Will miss your presence as well as those philosophical and random chats we had.. \n\nCongrats in your new job! Do chat with us once in a while in MCF alumi and visit us too! ",
   },
   {
     type: "photo",
@@ -228,9 +264,10 @@ export const messages = [
   },
   {
     type: "text",
-    header: "xx Sze Ying",
+    header: "Visa",
     message:
-      'Hi Joseph!!! Heheh very happy to have met a colleague like you in my very first job. Working with you has shown me that it is possible to be serious and have fun at the same time. In many aspects, you have been like a mentor figure to me. Thank you for the many insightful conversations we have had about how we can do things better, for giving me advice in my development, and for sharing with us many useful resources to become a better engineer, team member and person. Thank you for showing me that it\'s okay to make mistakes by calling me out, yet at the same time lending me guidance to fix my mistakes. I\'ll never forget the patience you showed me when I accidentally "k delete all --all"ed heh. And most importantly, thank you for all the opportunities you have given me. I wish you the very best in this next phase of your life. Hope to stay in touch!',
+      "Hi Joseph,\n" +
+      "though we hav not worked very closely, I have enjoyed every discussion with you. Your drive to set the right culture for the team and your courage to question the norm has always been an inspiration. All the best for your future endeavours and I am sure you will do great!!!!",
   },
   {
     type: "photo",
@@ -239,14 +276,23 @@ export const messages = [
   },
   {
     type: "text",
-    header: "Alvin",
+    header: "Leow Wei Jie",
     message:
-        "Hi Joseph, \n\nHave been working together since MCF started. You have been a good teammate, a helping hand when I have techincal difficulties and team culture keeper. Will miss your presence as well as those philosophical and random chats we had.. \n\nCongrats in your new job! Do chat with us once in a while in MCF alumi and visit us too! ",
+      "Thank you and all the best. Hope we can work together again in the future",
   },
   {
     type: "photo",
     image: escape1,
     alt: "group photo after escape room",
+  },
+  {
+    type: "text",
+    header: "Dickson",
+    message:
+      "Hi Joseph\n" +
+      "Congratulations on your new position! I'm sure you'll ace it as well and they're lucky to have you 😊\n" +
+      "Thank you for the many conversations that we've had - both the tech-related ones and especially the non-technical ones. I've learned a lot from you technically and really appreciate how you stand by your principles and are willing to speak when you feel that the right thing is not being done. I also really appreciate your mentorship and our discussions on ops and Ontological coaching, which encouraged my interest in these areas. Thank you for being an anchor for MCF and the Jobseeker team. Finally, thanks for setting up new structures to make the team better in a sustainable way so that they will continue to live on.\n" +
+      "Lets keep in touch,. Look forward to a proper reunion and catching up over great coffee at a cafe or when testing out a new espresso machine ☕",
   },
   {
     type: "photo",
@@ -265,9 +311,21 @@ export const messages = [
     alt: "group photo after escape room",
   },
   {
+    type: "text",
+    header: "Gerard",
+    message:
+      "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
+  },
+  {
     type: "photo",
     image: photoshoot3,
     alt: "joseph model siol",
+  },
+  {
+    type: "text",
+    header: "LS",
+    message:
+      "Hi Joseph,\nThe only constant is change” All the best in your next career!",
   },
   {
     type: "photo",
@@ -275,33 +333,9 @@ export const messages = [
     alt: "group photo at watami",
   },
   {
-    type: "text",
-    header: "Visa",
-    message: "Hi Joseph,\n" +
-    "though we hav not worked very closely, I have enjoyed every discussion with you. Your drive to set the right culture for the team and your courage to question the norm has always been an inspiration. All the best for your future endeavours and I am sure you will do great!!!!",
-  },
-  {
     type: "photo",
     image: LHL,
     alt: "Joseph assisting LHL to push code to MCF",
-  },
-  {
-    type: "text",
-    header: "Gerard",
-    message: "Thanks for laying the foundation for MCF and help making its culture great. All the best to your next project!",
-  },
-  {
-    type: "text",
-    header: "Leow Wei Jie",
-    message: "Thank you and all the best. Hope we can work together again in the future",
-  },
-  {
-    type: "text",
-    header: "Dickson",
-    message: "Hi Joseph\n" +
-    "Congratulations on your new position! I'm sure you'll ace it as well and they're lucky to have you 😊\n" +
-    "Thank you for the many conversations that we've had - both the tech-related ones and especially the non-technical ones. I've learned a lot from you technically and really appreciate how you stand by your principles and are willing to speak when you feel that the right thing is not being done. I also really appreciate your mentorship and our discussions on ops and Ontological coaching, which encouraged my interest in these areas. Thank you for being an anchor for MCF and the Jobseeker team. Finally, thanks for setting up new structures to make the team better in a sustainable way so that they will continue to live on.\n" +
-    "Lets keep in touch,. Look forward to a proper reunion and catching up over great coffee at a cafe or when testing out a new espresso machine ☕",
   },
   {
     type: "photo",
@@ -312,11 +346,6 @@ export const messages = [
     type: "photo",
     image: laptop,
     alt: "Two guys one laptop",
-  },
-  {
-    type: "text",
-    header: "LS",
-    message: "Hi Joseph,\nThe only constant is change” All the best in your next career!",
   },
   {
     type: "photo",
