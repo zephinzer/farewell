@@ -29,6 +29,7 @@ import starting_war from "../images/starting_war.jpeg";
 import LHL from "../images/LHL.jpeg";
 import mcfkickoff from "../images/MCFkickoff.jpg";
 import laptop from "../images/laptop.jpg";
+import andrey from "../images/from Andrey.jpg";
 
 /**
  * See README on how to add a new message
@@ -311,5 +312,15 @@ export const messages = [
     type: "photo",
     image: laptop,
     alt: "Two guys one laptop",
+  },
+  {
+    type: "text",
+    header: "LS",
+    message: "Hi Joseph,\nThe only constant is change” All the best in your next career!",
+  },
+  {
+    type: "photo",
+    image: andrey,
+    alt: "14 September 2018, 3:30pm",
   },
 ];
