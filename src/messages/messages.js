@@ -344,6 +344,12 @@ export const messages = [
     alt: "1st MCF kickoff meeting with POs",
   },
   {
+    type: "text",
+    header: "kaiwu",
+    message:
+      "Hey Joe,\nSince we met in uni until now, I have known you as one of the more capable people I have met. Like how you changed managed to change courses from science to computing, and made it work. You have created a legacy in not just MCF but in GovTech as a whole. I'm sure you will do the same in your new job.\n\nIt's a shame that I didn't manage to get to work with you longer. But still all the best in the new job! We will meet again!\n\n"
+  },
+  {
     type: "photo",
     image: laptop,
     alt: "Two guys one laptop",
