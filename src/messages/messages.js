@@ -87,9 +87,10 @@ export const messages = [
     alt: "Photo taken in the 90s obviously",
   },
   {
-    type: "photo",
-    image: starting_war,
-    alt: "CDS Disapproves",
+    type: "text",
+    header: "Laurent",
+    message:
+      "I know you are fluent at French so I will use that beautiful language for my latest govtechies word to you: Ce fut un plaisir et un honneur de travailler avec toi, Singapour n'étant pas très grand on se recroisera problablement. Je te souhaite pleins de bonnes choses et à la revoyure :)",
   },
   {
     type: "photo",
@@ -121,8 +122,8 @@ export const messages = [
   },
   {
     type: "photo",
-    image: food1,
-    alt: "four guys sitting at a table drinking coffee",
+    image: starting_war,
+    alt: "CDS Disapproves",
   },
   {
     type: "photo",
@@ -232,7 +233,7 @@ export const messages = [
   },
   {
     type: "text",
-    header: "xx Sze Ying",
+    header: "Sze Ying",
     message:
       "Hi Joseph!!! Heheh very happy to have met a colleague like you in my very first job. Working with you has shown me that it is possible to be serious and have fun at the same time. In many aspects, you have been like a mentor figure to me. Thank you for the many insightful conversations we have had about how we can do things better, for giving me advice in my development, and for sharing with us many useful resources to become a better engineer, team member and person. Thank you for showing me that it's okay to make mistakes by calling me out, yet at the same time lending me guidance to fix my mistakes. I'll never forget the patience you showed me when I accidentally \"k delete all --all\"ed heh. And most importantly, thank you for all the opportunities you have given me. I wish you the very best in this next phase of your life. Hope to stay in touch!",
   },
@@ -334,20 +335,53 @@ export const messages = [
     alt: "group photo at watami",
   },
   {
+    type: "text",
+    header: "Wei Jie",
+    message:
+      "Hey Joseph,\n" +
+      "\n" +
+      "It has only been a few months working with you but I will like to say that I really respect your inquisitive mind and your drive to question the purpose of things.\n" +
+      "\n" +
+      "Still remember how you put me in a spot for one of my first few rituals but really appreciate for providing me such valuable learning opportunities HAHA.\n" +
+      "\n" +
+      "Would love to get to know you better but I guess this Covid situation didn't help much in that aspect.\n" +
+      "\n" +
+      "I have no doubt you will be able excel and exceed expectations in your future role.\n" +
+      "\n" +
+      "All the best man.",
+  },
+  {
     type: "photo",
     image: LHL,
     alt: "Joseph assisting LHL to push code to MCF",
   },
   {
+    type: "text",
+    header: "RJ",
+    message:
+      "Dear Joseph,\n" +
+      "\n" +
+      "I'll miss awkwardly catching your gaze while walking to/from the pantry, then standing around chit chatting but not knowing when or how to cut it off so that I won't have interrupted you for too long.\n" +
+      "\n" +
+      "You'll always be my first RO! As your ROee I learnt that a RO-ROee relationship is not a one way street, and often it is actually the other way around. It is a specially allotted time that should be treasured by the RO. I learnt a heck lot about How To Do Production Properly (HTDPP) from you too, but that is a whole bookshelf's worth of learnings in itself.\n" +
+      "\n" +
+      "This isn't goodbye, Singapore is small and we have many decades to go (hopefully). Will keep in touch and try to awkwardly catch your gaze around the streets maybe.\n",
+  },
+  {
     type: "photo",
-    image: mcfkickoff,
-    alt: "1st MCF kickoff meeting with POs",
+    image: photoshoot2,
+    alt: "joseph model siol",
   },
   {
     type: "text",
     header: "kaiwu",
     message:
-      "Hey Joe,\nSince we met in uni until now, I have known you as one of the more capable people I have met. Like how you changed managed to change courses from science to computing, and made it work. You have created a legacy in not just MCF but in GovTech as a whole. I'm sure you will do the same in your new job.\n\nIt's a shame that I didn't manage to get to work with you longer. But still all the best in the new job! We will meet again!\n\n"
+      "Hey Joe,\nSince we met in uni until now, I have known you as one of the more capable people I have met. Like how you changed managed to change courses from science to computing, and made it work. You have created a legacy in not just MCF but in GovTech as a whole. I'm sure you will do the same in your new job.\n\nIt's a shame that I didn't manage to get to work with you longer. But still all the best in the new job! We will meet again!\n\n",
+  },
+  {
+    type: "photo",
+    image: mcfkickoff,
+    alt: "1st MCF kickoff meeting with POs",
   },
   {
     type: "photo",
@@ -356,12 +390,12 @@ export const messages = [
   },
   {
     type: "photo",
-    image: andrey,
-    alt: "14 September 2018, 3:30pm",
+    image: food1,
+    alt: "four guys sitting at a table drinking coffee",
   },
   {
     type: "photo",
-    image: photoshoot2,
-    alt: "joseph model siol",
+    image: andrey,
+    alt: "14 September 2018, 3:30pm",
   },
 ];
