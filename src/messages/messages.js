@@ -1,35 +1,36 @@
+import andrey from "../images/from Andrey.jpg";
 import deliveroo from "../images/deliveroo.jpg";
 import escape from "../images/escape.jpg";
 import escape1 from "../images/escape1.jpg";
 import escape2 from "../images/escape2.jpg";
 import food1 from "../images/food1.jpeg";
 import food2 from "../images/food2.jpeg";
-import hive4 from "../images/hive4.jpeg";
+import food3 from "../images/food3.jpeg";
+import food5 from "../images/food5.jpeg";
+import food6 from "../images/food6.jpeg";
+import food7 from "../images/food7.jpeg";
 import hive1 from "../images/hive1.jpeg";
+import hive2 from "../images/hive2.jpg";
+import hive3 from "../images/hive3.jpeg";
+import hive4 from "../images/hive4.jpeg";
+import house1 from "../images/house1.jpeg";
 import infinty from "../images/infinity.jpg";
+import kfc from '../images/kfc.jpg';
+import laptop from "../images/laptop.jpg";
+import LHL from "../images/LHL.jpeg";
 import market1 from "../images/market1.jpeg";
+import mcfkickoff from "../images/MCFkickoff.jpg";
 import milksha from "../images/milksha.jpg";
+import mirror1 from "../images/mirror1.jpeg";
+import overseas1 from "../images/overseas1.jpeg";
 import photoshoot from "../images/photoshoot.jpg";
 import photoshoot2 from "../images/photoshoot2.jpg";
 import photoshoot3 from "../images/photoshoot3.jpg";
 import rivendell from "../images/rivendell.jpg";
+import starting_war from "../images/starting_war.jpeg";
 import suntec from "../images/suntec.jpg";
 import suntec2 from "../images/suntec2.jpg";
 import watami from "../images/watami.jpg";
-import house1 from "../images/house1.jpeg";
-import mirror1 from "../images/mirror1.jpeg";
-import overseas1 from "../images/overseas1.jpeg";
-import food3 from "../images/food3.jpeg";
-import food5 from "../images/food5.jpeg";
-import food7 from "../images/food7.jpeg";
-import food6 from "../images/food6.jpeg";
-import hive2 from "../images/hive2.jpg";
-import hive3 from "../images/hive3.jpeg";
-import starting_war from "../images/starting_war.jpeg";
-import LHL from "../images/LHL.jpeg";
-import mcfkickoff from "../images/MCFkickoff.jpg";
-import laptop from "../images/laptop.jpg";
-import andrey from "../images/from Andrey.jpg";
 
 /**
  * See README on how to add a new message
@@ -396,6 +397,11 @@ export const messages = [
     header: "kaiwu",
     message:
       "Hey Joe,\nSince we met in uni until now, I have known you as one of the more capable people I have met. Like how you changed managed to change courses from science to computing, and made it work. You have created a legacy in not just MCF but in GovTech as a whole. I'm sure you will do the same in your new job.\n\nIt's a shame that I didn't manage to get to work with you longer. But still all the best in the new job! We will meet again!\n\n",
+  },
+  {
+    type: "photo",
+    image: kfc,
+    alt: "KFC zoom lunch",
   },
   {
     type: "photo",
