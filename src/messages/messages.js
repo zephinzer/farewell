@@ -190,6 +190,20 @@ export const messages = [
       "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
   {
+    type: "text",
+    header: "Caroline",
+    message:
+        "Dear Joseph,\n" +
+        "\n" +
+        "Joining the team has been quite of a ride and without you it would have been a very bumpy one! You have been an amazing team member, who always care about people (and also processes) while standing for your opinions which is key and rare in this world so please cherish this part of you! You are not only a great team member but also an very interesting and great friend! \n" +
+        "Your contribution to this team does not stop the moment you leave, thanks to all the hard-work and thoughts you put into this team, I am confident to say that we will still feel as if you were with us and you keep on pushing us, you will be like a gentle ghost in the background hehe \n" +
+        "I will always be thankful to you for all your advice, your different opinions, your challenges for us/me and your great intention\n" +
+        "Keep your North Star while being open to the world \n" +
+        "\n" +
+        "Im not great at keeping in touch on a daily basis but I will always be happy to hear from you and peak on your brain again hehe \n" +
+        "All the best - Caroline",
+  },
+  {
     type: "photo",
     image: food6,
     alt: "The only documented buffet",
