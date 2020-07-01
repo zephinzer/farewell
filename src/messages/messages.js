@@ -404,11 +404,6 @@ export const messages = [
     alt: "KFC zoom lunch",
   },
   {
-    type: "photo",
-    image: mcfkickoff,
-    alt: "1st MCF kickoff meeting with POs",
-  },
-  {
     type: "text",
     header: "Regards, Benjamin",
     message:
@@ -420,6 +415,23 @@ export const messages = [
     type: "photo",
     image: laptop,
     alt: "Two guys one laptop",
+  },
+  {
+    type: "text",
+    header: "YS",
+    message:
+      "Although our point of view are different most of the time, i do appreciate the point on clarifying the the value of each story. wish you all the best in your new position.",
+  },
+  {
+    type: "photo",
+    image: mcfkickoff,
+    alt: "1st MCF kickoff meeting with POs",
+  },
+  {
+    type: "text",
+    header: "Ernest",
+    message:
+      "Thank you for the contributions to the greater good of Singapore.. Haha.. Of cos, it was our pleasure to have you in the team, sharing your wealth of knowledge and expertise. To better future for you, 🍻!",
   },
   {
     type: "photo",
