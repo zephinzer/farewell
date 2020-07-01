@@ -15,13 +15,14 @@ import hive3 from "../images/hive3.jpeg";
 import hive4 from "../images/hive4.jpeg";
 import house1 from "../images/house1.jpeg";
 import infinty from "../images/infinity.jpg";
-import kfc from '../images/kfc.jpg';
+import kfc from "../images/kfc.jpg";
 import laptop from "../images/laptop.jpg";
 import LHL from "../images/LHL.jpeg";
 import market1 from "../images/market1.jpeg";
 import mcfkickoff from "../images/MCFkickoff.jpg";
 import milksha from "../images/milksha.jpg";
 import mirror1 from "../images/mirror1.jpeg";
+import nomadsux from "../images/nomadsux.jpg";
 import overseas1 from "../images/overseas1.jpeg";
 import photoshoot from "../images/photoshoot.jpg";
 import photoshoot2 from "../images/photoshoot2.jpg";
@@ -437,5 +438,10 @@ export const messages = [
     type: "photo",
     image: andrey,
     alt: "14 September 2018, 3:30pm",
+  },
+  {
+    type: "photo",
+    image: nomadsux,
+    alt: "A man of character",
   },
 ];
