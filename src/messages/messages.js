@@ -190,6 +190,11 @@ export const messages = [
       "Thanks for pioneering such a great team culture for us to be a part of and I hope you will continue to work with great (or greater) people wherever you go!",
   },
   {
+    type: "photo",
+    image: food1,
+    alt: "four guys sitting at a table drinking coffee",
+  },
+  {
     type: "text",
     header: "Caroline",
     message:
@@ -409,11 +414,6 @@ export const messages = [
     type: "photo",
     image: laptop,
     alt: "Two guys one laptop",
-  },
-  {
-    type: "photo",
-    image: food1,
-    alt: "four guys sitting at a table drinking coffee",
   },
   {
     type: "photo",
